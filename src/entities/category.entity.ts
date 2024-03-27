@@ -15,8 +15,3 @@ export class Category{
         this.color = color;
     }
 }
-
-const category = new Category({
-    title: 'title',
-    color: '#ff33bb'
-})

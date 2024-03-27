@@ -9,3 +9,8 @@ baseRoutes.get('/', (_, res) => {
 
     res.status(200).json({ name, version , description, author });
 })
+
+// ROUTE -> COntroller > service > entity
+// Entity - > SERVICE -> Controller -> Route
+
+
